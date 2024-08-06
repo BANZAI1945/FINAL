@@ -1,0 +1,86 @@
+/* Container */
+.container{
+    width: min(100%, 1440px);
+    margin: auto;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 94px;
+    background: #012426;
+    border-bottom: 2px solid #05BCCA;
+    height: 96px;
+
+}
+.ul1{
+    display: flex;
+    column-gap: 72px;
+}
+li{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #A1C3C9;
+
+}
+.logos{
+    display: flex;
+    column-gap: 32px;
+}
+.guitar{
+    width: 64px;
+    height: 64px;
+}
+.icon_border_inactive{
+    display: flex;
+    background: none;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    top: 28px;
+    left: 1162px;
+    padding: 14px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 8px 8px 8px 8px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #05BCCA;
+    color:  #05BCCA;
+}
+.icon_border_active{
+    display: flex;
+    background: none;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    top: 28px;
+    left: 1162px;
+    padding: 14px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 8px 8px 8px 8px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #05BCCA;
+    background: #05BCCA;
+    color:  #2C4246;
+}
+
+.fa-solid, .fa-regular{
+    width: 12px;
+    height: 12px;
+    
+}
+.fa-cart-shopping{
+    width: 24px;
+height: 24px;
+/* top: 8px; */
+/* left: 8px;
+padding: 2px 3px 2px 1px;
+gap: 0px;
+opacity: 0px; */
+
+}
