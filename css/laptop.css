@@ -1,14 +1,20 @@
-@media(max-width:1333px){
+@media(max-width:1376px) {
 
 
     /* index section2 */
-    .section_two{
-      padding: 80px 0px 80px 121px;
+    .section_tre {
+        padding-left: 45px;
     }
-    .section_two{
-      overflow-x: scroll;
+
+    .section_tre {
+        overflow-x: scroll;
     }
-    .article{
-      flex: 1 0 298px;
+
+    .article {
+        flex: 1 0 298px;
+        padding: 8px 8px 16px 8px;
+        gap: 0px;
+        border: 1px 0px 0px 0px;
     }
-  }
+    
+}
