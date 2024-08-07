@@ -1,0 +1,14 @@
+@media(max-width:1333px){
+
+
+    /* index section2 */
+    .section_two{
+      padding: 80px 0px 80px 121px;
+    }
+    .section_two{
+      overflow-x: scroll;
+    }
+    .article{
+      flex: 1 0 298px;
+    }
+  }
