@@ -16,5 +16,21 @@
         gap: 0px;
         border: 1px 0px 0px 0px;
     }
-    
+   
+    #bar{
+        display: flex ;
+    }
+    header{
+        padding: 0px 45px;
+    }
+    .footer{
+        padding: 48px 98px;
+
+    }
+    #menu{
+        display: none;
+    }
+    /* .menu{
+        display: none;
+    } */
 }
