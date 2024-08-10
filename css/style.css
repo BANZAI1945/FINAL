@@ -11,103 +11,55 @@
 header {
     max-width: inherit;
     width: inherit;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #012426;
+    padding: 16px 94px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 94px;
-    background: #012426;
-    border-bottom: 2px solid #05BCCA;
-    height: 96px;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0px;
-
 }
 
-.ul1 {
+.burger,
+.xMark {
+    display: none;
+}
+
+.header_ul {
     display: flex;
     column-gap: 72px;
 }
 
-#bar {
-    display: none;
-}
-
-.fa-bars {
-    width: 24px;
-    height: 24px;
-    font-size: 24px;
-
-    color: #05BCCA;
-}
-
-.menu {
+.header_li_a {
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    text-align: left;
     color: #A1C3C9;
-
 }
 
-.logos {
+.header_buttons_section {
     display: flex;
     column-gap: 32px;
 }
 
-.guitar {
-    width: 64px;
-    height: 64px;
-}
-
-.icon_border_inactive {
-    display: flex;
-    background: none;
-    justify-content: center;
+.button_border,
+.button_background {
     width: 40px;
     height: 40px;
-    top: 28px;
-    left: 1162px;
-    padding: 14px 0px 0px 0px;
-    gap: 0px;
-    border-radius: 8px 8px 8px 8px;
-    border: 2px 0px 0px 0px;
-    opacity: 0px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+.button_border {
     border: 2px solid #05BCCA;
-    color: #05BCCA;
 }
 
-.icon_border_active {
-    display: flex;
-    background: none;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    top: 28px;
-    left: 1162px;
-    padding: 14px 0px 0px 0px;
-    gap: 0px;
-    border-radius: 8px 8px 8px 8px;
-    border: 2px 0px 0px 0px;
-    opacity: 0px;
-    border: 2px solid #05BCCA;
-    background: #05BCCA;
-    color: #2C4246;
-}
-
-/* .fa-solid, */
-.fa-regular {
-    width: 12px;
-    height: 12px;
-
-}
-
-.fa-cart-shopping {
-    width: 24px;
-    height: 24px;
-
+.button_background {
+    background-color: #05BCCA;
 }
 
 .section_one {
@@ -373,7 +325,7 @@ article:hover {
 .catalog_section {
     height: 1672px;
     background: #012426;
-    display: flex;
+    /* display: flex; */
     padding: 94px 96px 94px 96px;
 
 }
@@ -428,4 +380,149 @@ color: #2C4246;
 .filter_li_2{
     display: flex;
     column-gap: 32px;
+}
+.section_article{
+    /* border: 1px solid red; */
+    margin-top: 64px;
+    width: 1252px;
+    height: 1280px;
+    flex-wrap: wrap;
+    
+    display: flex;
+    column-gap: 20px;
+    row-gap: 40px;
+    
+}
+
+
+
+/* /////contact */
+.Contact_MainSection{
+    height: 720px;
+    padding-inline: 94px;
+    background-image: url(../images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Contact_MainContainer{
+    width: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+
+}
+.Contact_HeaderTxt{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.ContactInfo{
+    padding:35px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C4246;
+}
+.ContactInfo_LeftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+.Contact_Email,
+.Contact_Phone{
+    display: flex;
+    align-items: center;
+    column-gap:16px;
+}
+.fa-envelope,
+.fa-mobile-screen-button{
+    font-size: 24px;
+    color: #D9D9D9;
+}
+.ContactTxt{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D9D9D9;
+}
+
+.Location_Logo_Container{
+    width: 80px;
+    height: 80px;
+}
+.LocationLogo{
+    width: 100%;
+    height: 100%;
+}
+
+  
+.Contact_SeconarySection{
+    display: flex;
+    column-gap: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.NameAndEmail{
+    display: flex;
+    display: flex;
+    column-gap: 8px;
+    margin-bottom: 16px;
+}
+input[type=text],
+input[type=email],
+textarea {
+    resize: none;
+    width: 100%;
+    background-color: #2C4246;
+    border: none;
+    padding: 6px 8px;
+    color: #A1C3C9;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+textarea{
+    height: 103px;
+    margin-bottom: 24px;
+}
+.SubmitButton{
+    width: 100%;
+    height: 40px;
+    background-color: #C46A2B;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.Map_Socials{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    width: 50%;
+}
+.Contact_SocialsContainer{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 16px;
+}
+.Contact_Socials{
+    font-size: 32px;
+    color: #05BCCA;
+    transition: all 0.3s linear;
 }
