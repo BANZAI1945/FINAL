@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/laptop.css">
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="script/script.js">
+    
     <script src="https://kit.fontawesome.com/b10ab52c8f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,35 +22,40 @@
 <body>
     <!-- container -->
     <div class="container">
-        <header class="header">
-            <ul class="ul1">
-                <li id="bar">
-                    <i class="fa-solid fa-bars"></i>
+        <header>
+            <img src="images/burger.svg" alt="" class="burger">
+            <img src="images/xmark.svg" alt="" class="xMark">
+            <!-- nav  -->
+            <nav class="header_nav">
+              <ul class="header_ul">
+                <li class="header_li">
+                  <a href="index.html" class="header_li_a">Home</a>
                 </li>
-                <li id="menu">
-                    <a class="menu" href="index.html">Home</a>
+                <li class="header_li">
+                  <a href="catalog.html" class="header_li_a">Catalog</a>
                 </li>
-                <li id="menu">
-                    <a class="menu" href="catalog.html">Catalog</a>
+                <li class="header_li">
+                  <a href="contact.html" class="header_li_a">Contact Us</a>
                 </li>
-                <li id="menu">
-                    <a class="menu" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-            <a href="index.html"><img class="guitar" src="images/guitar.svg" alt="logo_guitar"></a>
-            <div class="logos">
-                <button class="icon_border_inactive">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-                <button class="icon_border_active">
-                    <i class="fa-regular fa-user"></i>
-                </button>
-                <button class="icon_border_inactive">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
-
-            </div>
-        </header>
+              </ul>
+            </nav>
+            <!-- logo -->
+            <a href="index.html">
+              <img src="images/logo.svg" alt="logo">
+            </a>
+            <section class="header_buttons_section">
+              <button class="button_border">
+                <img src="images/saerch.svg" alt="">
+              </button>
+              <button class="button_background">
+                <img src="images/user.svg" alt="">
+              </button>
+              <button class="button_border">
+                <img src="images/cart.svg" alt="">
+              </button>
+            </section>
+          </header>
+          <script src="/script/script.js"></script>
         <section class="Contact_MainSection">
             <section class="Contact_MainContainer">
                     <h3 class="Contact_HeaderTxt">Have a question? Need tech or playing support? Want to connect on social? Do it here!</h3>
