@@ -49,43 +49,43 @@
         display: none;
     }
 /* ////////contact */
-.Contact_MainSection{
+.contact_section{
     height: 711px;
     padding:0;
 }
-.Contact_MainContainer{
+.contact_container{
     padding: 32px 20px;
 }
-.Contact_SeconarySection{
+.contact_section_2{
     flex-direction: column;
     row-gap: 40px;
 }
-.Contact_HeaderTxt{
+.header_text{
     font-size: 16px;
     line-height: 24px;
 }
-.ContactInfo{
+.info{
     align-items: center;
     justify-content: center;
     column-gap: 24px;
     padding-block: 16px;
 }
-.ContactInfo_LeftSide{
+.info_left{
     flex-direction: row;
     column-gap: 24px;
 }
-.Location_Logo_Container{
+.gps_logo{
     width: 24px;
     height: 24px;
 }
-.ContactTxt{
+.contact_text{
     display: none;
 }
 form,
-.Map_Socials{
+.soc{
     width: 100%;
 }
-.Contact_SocialsContainer{
+.soc_cont{
     justify-content: center;
 }
 
