@@ -70,9 +70,13 @@
 }
 
 @media(max-width:1050px){
-    .section_article{
-        width: 800px ;
-        /* height: ; */
-            }
+.section_article{
+    background: #000;
+    width: 616px;
+    height: 100%;
+}
+.catalog_section{
+    height: fit-content;
+}
 
 }

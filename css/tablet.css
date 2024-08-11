@@ -1,22 +1,33 @@
 @media(max-width:743px) {
-    header{
+    header {
         padding: 0px 32px;
     }
-    .footer{
+
+    .footer {
         padding: 48px 32px;
 
     }
-    .section_tre{
+
+    .section_tre {
         padding: 48px 0px 48px 32px;
         height: 620px;
     }
+
     .section_one {
         height: 480px;
-        
-}
-.logos {
-    display: flex;
-    column-gap: 32px;
-}
 
+    }
+
+    .logos {
+        display: flex;
+        column-gap: 32px;
+    }
+    .section_article{
+        background: #000;
+        width: 298px;
+        height: 100%;
+    }
+    .catalog_section{
+        height: fit-content;
+    }
 }
