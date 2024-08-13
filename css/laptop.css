@@ -1,4 +1,5 @@
-@media(max-width:1376px) {
+@media(max-width:1025px) {
+
     /* header  */
     header {
         padding-inline: 45px;
@@ -30,53 +31,36 @@
 
     /* index section2 */
     .section_tre {
-        padding-left: 45px;
+        padding-inline: 45px 0;
     }
 
-    .section_tre {
+    .section_two {
         overflow-x: scroll;
     }
 
     .article {
         flex: 1 0 298px;
-        padding: 8px 8px 16px 8px;
-        gap: 0px;
-        border: 1px 0px 0px 0px;
     }
 
-    
+    /* index.htm footer */
     .footer {
         padding: 48px 98px;
 
     }
 
-    
-/* //////////////////catalog */
-    .catalog_section {
 
-        
+    /* //////////////////catalog */
+    .catalog_section {
         padding: 45px 96px 45px 96px;
-         height: 2112px;
 
 
     }
- .section_article{
-        width: 934px ;
-        /* height: ; */
-            }
-    
-   
-        
-}
 
-@media(max-width:1050px){
-.section_article{
-    /* background: #000; */
-    width: 616px;
-    height: 100%;
-}
-.catalog_section{
-    height: fit-content;
-}
+    .hide1025 {
+        display: none;
+    }
 
+    .contact_section {
+        padding-right: 45px;
+    }
 }

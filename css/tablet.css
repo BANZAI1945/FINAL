@@ -1,29 +1,60 @@
-@media(max-width:743px) {
+@media(max-width:745px) {
     .footer {
-        padding: 48px 32px;
-
+        padding-inline: 32px;
     }
 
     .section_tre {
         padding: 48px 0px 48px 32px;
-        height: 620px;
+
     }
 
     .section_one {
         height: 480px;
-
+        padding-top: 32px;
     }
 
     .logos {
         display: flex;
         column-gap: 32px;
     }
-    .section_article{
+
+    .section_article {
         /* background: #000; */
         width: 298px;
         height: 100%;
     }
-    .catalog_section{
-        height: fit-content;
+
+    .catalog_section {
+        padding: 48px 32px;
+    }
+
+    .hide745 {
+        display: none;
+    }
+}
+
+@media(max-width:681px) {
+    .contact_section {
+        padding-inline: 32px;
+    }
+
+    .contact_container {
+        width: 100%;
+    }
+}
+
+@media(max-width:550px) {
+
+    .h2_filter_none,
+    .filter_button h3 {
+        display: none;
+    }
+
+    .filter_button {
+        width: 36px;
+    }
+
+    .catalog_section_buttons button span {
+        display: none;
     }
 }
