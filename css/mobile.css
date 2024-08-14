@@ -56,7 +56,7 @@
     }
 
     .soc {
-        margin: 8px auto;
+        margin: 8px ;
     }
 
     .section_tre {
@@ -90,9 +90,9 @@
         /* padding: 32px 20px; */
     }
 
-    .contact_container {
+    /* .contact_container {
         padding: 32px 20px;
-    }
+    } */
 
     .contact_section_2 {
         flex-direction: column;
@@ -121,7 +121,7 @@
         height: 24px;
     }
 
-    .contact_text {
+    .con_text {
         display: none;
     }
 
@@ -161,6 +161,9 @@
     .contact_section {
         height: 735px;
         padding-inline: 8px;
+    }
+    .contact_container{
+        height: 735px;
     }
 
 }
